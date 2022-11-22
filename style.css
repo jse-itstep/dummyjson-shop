@@ -1,0 +1,30 @@
+#all_products{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 100px;
+}
+.products{
+    box-shadow: 0 0 4px;
+    padding: 25px;
+}
+button{
+    background-color: green;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 7px;
+}
+.image{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 250px;
+}
+.price{
+    color: green;
+    /* padding-left: 100px; */
+}
+.title{
+    font-weight: bold;
+    font-size: 700;
+}
