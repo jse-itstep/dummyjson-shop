@@ -1,1 +1,0 @@
-dummyjson shop project
