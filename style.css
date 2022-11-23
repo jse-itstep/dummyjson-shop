@@ -1,7 +1,7 @@
 #all_products{
     margin: 35px;
     display: grid;
-    grid-template-columns: repeat(4, 250px);
+    grid-template-columns: repeat(4, 280px);
     gap: 100px;
 }
 .products{
@@ -32,4 +32,27 @@
 .title{
     font-weight: bold;
     font-size: 700;
+}
+select{
+    margin: 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+a{
+    background-color: cornflowerblue;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 7px;
+    position: relative;
+    left: 50%;
+    bottom: 25px;
+    transform: translateX(-50%);
+}
+a:hover{
+    background-color: lightblue;
+    transition: 0.7s;
+
 }
