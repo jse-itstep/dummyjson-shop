@@ -1,6 +1,3 @@
-let arr = [0, 1];
-localStorage.setItem("key", JSON.stringify(arr));
-
 ;(async () => {
 
     let cart = JSON.parse(localStorage.getItem("key")) || [];
