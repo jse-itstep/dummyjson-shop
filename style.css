@@ -1,0 +1,58 @@
+.container{
+    font-family:serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    cursor: pointer;
+}
+
+.image{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100px;
+}
+
+#allcategories{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 30px; 
+
+}
+
+.productblock{
+    box-shadow: 2px 2px black;
+    border: 1px solid black;
+    width: 260px;
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.title{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+.titles{
+    display: flex;
+    justify-content: center;
+
+}
+.price{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+hr{
+    margin: 25px;
+}
+
