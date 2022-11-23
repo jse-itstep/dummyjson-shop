@@ -6,7 +6,7 @@ let URL = 'https://dummyjson.com/products?limit=100'
 
 ;(async() => {
     let response = await fetch('https://dummyjson.com/products/categories')
-    let data = await response.jsxon();
+    let data = await response.json();
     select.innerHTML += `<option value="">Выберите категорию</option>`
         for(let i = 0; i < data.length; i++){
             select.innerHTML += `<option value="${data[i]}">${data[i]}</option>`
@@ -56,9 +56,7 @@ function sendId(productId){
 
 
 select.addEventListener("change", () => {
-        drawCategories(select.value)
-
-
+        drawCategories(select.value)    
 })
 
 
