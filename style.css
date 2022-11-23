@@ -1,18 +1,23 @@
 #all_products{
+    margin: 35px;
     display: grid;
-    grid-template-columns: repeat(4, 300px);
+    grid-template-columns: repeat(4, 250px);
     gap: 100px;
 }
 .products{
-    box-shadow: 0 0 4px;
+    box-shadow: 0 0 7px;
     padding: 25px;
 }
-button{
+#btn{
     background-color: green;
     border: none;
     border-radius: 8px;
     color: white;
     padding: 7px;
+}
+#btn:hover{
+    background-color: lightgreen;
+    transition: 0.7s;
 }
 .image{
     background-repeat: no-repeat;
